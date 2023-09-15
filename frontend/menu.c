@@ -122,7 +122,7 @@ static int bios_sel, gpu_plugsel, spu_plugsel;
 #define MENU_BIOS_PATH "bios/"
 #define MENU_SHOW_VARSCALER 0
 #define MENU_SHOW_VOUTMODE 1
-#define MENU_SHOW_SCALER2 0
+#define MENU_SHOW_SCALER2 1
 #define MENU_SHOW_NUBS_BTNS 0
 #define MENU_SHOW_VIBRATION 0
 #define MENU_SHOW_DEADZONE 0
