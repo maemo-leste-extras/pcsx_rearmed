@@ -1,13 +1,13 @@
 Source: pcsxrearmed
 Section: user/games
 Priority: extra
-Maintainer: Bonapart <bonapart@programist.ru>
-Build-Depends: debhelper (>= 5), zlib1g-dev, libhildon1-dev,  libpulse-dev, libasound2-dev, libbz2-dev, libgles1-sgx-img-dev, opengles-sgx-img-common-dev, libosso-dev, libdbus-1-dev, libhildonfm2-dev, libts-dev
+Maintainer: Arno11 <arno11-n900@outlook.com>
+Build-Depends: debhelper (>= 5), zlib1g-dev, libhildon1-dev, libpulse-dev, libasound2-dev, libbz2-dev, libosso-dev, libdbus-1-dev, libhildonfm2-dev, libts-dev
 Standards-Version: 3.7.3
 
 Package: pcsxrearmed
-Architecture: armel
-Depends: ${shlibs:Depends}, libts-0.0-0
+Architecture: any
+Depends: ${shlibs:Depends}
 Description: Sony PlayStation emulator
 XSBC-Homepage: http://notaz.gp2x.de/pcsx_rearmed.php
 XSBC-Bugtracker: http://notaz.gp2x.de/pcsx_rearmed.php
