@@ -20,7 +20,7 @@ build: build-stamp
 
 build-stamp:
 	dh_testdir
-	./configure --platform=maemo --gpu=neon --sound-drivers=pulseaudio --enable-neon
+	./configure --platform=generic --gpu=neon --sound-drivers=pulseaudio --enable-neon
 	$(MAKE)
 	strip pcsx
 	strip plugins/gpu_unai/gpu_unai.so
