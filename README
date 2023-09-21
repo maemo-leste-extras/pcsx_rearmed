@@ -1,3 +1,10 @@
+==== N900 new bios and config path ===
+
+bios path: /opt/maemo/usr/games/bios
+pcsx.cfg path: /opt/maemo/usr/games/.pcsx
+(note: pcsx.cfg needs write and read permissions)
+
+====================================
 PCSX-ReARMed - yet another PCSX fork
 ====================================
 
