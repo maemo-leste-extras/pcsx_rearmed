@@ -42,6 +42,12 @@ install: build
 	mkdir -p "$(CURDIR)"/debian/pcsxrearmed/opt/maemo/usr/games/screenshots
 	chmod 777 "$(CURDIR)"/debian/pcsxrearmed/opt/maemo/usr/games/screenshots
 	chown user "$(CURDIR)"/debian/pcsxrearmed/opt/maemo/usr/games/screenshots
+	mkdir -p "$(CURDIR)"/debian/pcsxrearmed/opt/maemo/usr/games/skin
+	chmod 777 "$(CURDIR)"/debian/pcsxrearmed/opt/maemo/usr/games/skin
+	chown user "$(CURDIR)"/debian/pcsxrearmed/opt/maemo/usr/games/skin
+	mkdir -p "$(CURDIR)"/debian/pcsxrearmed/opt/maemo/usr/games/bios
+	chmod 777 "$(CURDIR)"/debian/pcsxrearmed/opt/maemo/usr/games/bios
+	chown user "$(CURDIR)"/debian/pcsxrearmed/opt/maemo/usr/games/bios
 	dh_install
 
 binary-indep: build install
