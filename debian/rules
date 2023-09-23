@@ -48,6 +48,9 @@ install: build
 	mkdir -p "$(CURDIR)"/debian/pcsxrearmed/opt/maemo/usr/games/bios
 	chmod 777 "$(CURDIR)"/debian/pcsxrearmed/opt/maemo/usr/games/bios
 	chown user "$(CURDIR)"/debian/pcsxrearmed/opt/maemo/usr/games/bios
+	mkdir -p "$(CURDIR)"/debian/pcsxrearmed/opt/maemo/usr/games/.pcsx
+	chmod 777 "$(CURDIR)"/debian/pcsxrearmed/opt/maemo/usr/games/.pcsx
+	chown user "$(CURDIR)"/debian/pcsxrearmed/opt/maemo/usr/games/.pcsx
 	dh_install
 
 binary-indep: build install
