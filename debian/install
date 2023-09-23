@@ -4,3 +4,9 @@ plugins/gpu_unai/gpu_unai.so opt/maemo/usr/games/plugins
 #plugins/gpu_unai/gpuPCSX4ALL.so opt/maemo/usr/games/plugins
 plugins/dfxvideo/gpu_peops.so opt/maemo/usr/games/plugins
 plugins/gpu-gles/gpu_gles.so opt/maemo/usr/games/plugins
+frontend/320240/skin/background.png opt/maemo/usr/games/skin
+frontend/320240/skin/font.png opt/maemo/usr/games/skin
+frontend/320240/skin/selector.png opt/maemo/usr/games/skin
+frontend/320240/skin/readme.txt opt/maemo/usr/games/skin
+frontend/320240/skin/skin.txt opt/maemo/usr/games/skin
+pcsx.cfg opt/maemo/usr/games/.pcsx
