@@ -1,7 +1,7 @@
 ==== N900 new bios and config path ===
 
-bios path: /usr/games/bios
-pcsx.cfg path: /usr/games/.pcsx
+bios path: /usr/games/pcsx/bios
+pcsx.cfg path: /usr/games/pcsx/.pcsx
 (note: pcsx.cfg needs write and read permissions)
 
 ====================================
