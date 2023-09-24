@@ -4,7 +4,7 @@ plugins/gpu_unai/gpu_unai.so usr/games/plugins
 #plugins/gpu_unai/gpuPCSX4ALL.so usr/games/plugins
 plugins/dfxvideo/gpu_peops.so usr/games/plugins
 plugins/gpu-gles/gpu_gles.so usr/games/plugins
-frontend/320240/skin/background.png usr/games/skin
+frontend/pandora/skin/background.png usr/games/skin
 frontend/320240/skin/font.png usr/games/skin
 frontend/320240/skin/selector.png usr/games/skin
 frontend/320240/skin/readme.txt usr/games/skin
