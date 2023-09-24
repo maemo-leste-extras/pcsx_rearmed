@@ -10,3 +10,6 @@ frontend/320240/skin/selector.png usr/games/skin
 frontend/320240/skin/readme.txt usr/games/skin
 frontend/320240/skin/skin.txt usr/games/skin
 pcsx.cfg usr/games/.pcsx
+pcsx.sh usr/games
+frontend/pandora/pcsx.png usr/share/icons/hicolor/64x64/apps
+pcsx_rearmed.desktop usr/share/applications/hildon
