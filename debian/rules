@@ -48,6 +48,9 @@ install: build
 	mkdir -p "$(CURDIR)"/debian/pcsxrearmed/usr/games/pcsx/bios
 	chmod 777 "$(CURDIR)"/debian/pcsxrearmed/usr/games/pcsx/bios
 	chown user "$(CURDIR)"/debian/pcsxrearmed/usr/games/pcsx/bios
+	mkdir -p "$(CURDIR)"/debian/pcsxrearmed/usr/games/pcsx/.pcsx/memcards
+	chmod 777 "$(CURDIR)"/debian/pcsxrearmed/usr/games/pcsx/.pcsx/memcards
+	chown user "$(CURDIR)"/debian/pcsxrearmed/usr/games/pcsx/.pcsx/memcards
 	mkdir -p "$(CURDIR)"/debian/pcsxrearmed/usr/games/pcsx/.pcsx
 	chmod 777 "$(CURDIR)"/debian/pcsxrearmed/usr/games/pcsx/.pcsx
 	chown user "$(CURDIR)"/debian/pcsxrearmed/usr/games/pcsx/.pcsx
