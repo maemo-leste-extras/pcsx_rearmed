@@ -1,3 +1,9 @@
+pcsxrearmed (3.7.3+leste1) unstable; urgency=low
+
+   * New Maemo Leste version optimized for N900
+
+ -- Arno11 <arno11-n900@outlook.com>  Fri,  15 Feb 2013 12:50:28 +0200
+
 pcsxrearmed (0.4.0.14.13) unstable; urgency=low
 
    * Updated source to notaz git version
