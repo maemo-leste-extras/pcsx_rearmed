@@ -54,7 +54,7 @@ install: build
 	mkdir -p "$(CURDIR)"/debian/pcsxrearmed/usr/games/pcsx/.pcsx
 	chmod 777 "$(CURDIR)"/debian/pcsxrearmed/usr/games/pcsx/.pcsx
 	chown user "$(CURDIR)"/debian/pcsxrearmed/usr/games/pcsx/.pcsx
-	chmod 777 "$(CURDIR)"/debian/pcsxrearmed/usr/games/pcsx/.pcsx/pcsx.cfg
+	#chmod 777 "$(CURDIR)"/debian/pcsxrearmed/usr/games/pcsx/.pcsx/pcsx.cfg
 	chmod 777 "$(CURDIR)"/debian/pcsxrearmed/usr/games
 	dh_install
 
