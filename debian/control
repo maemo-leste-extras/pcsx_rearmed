@@ -8,7 +8,8 @@ Standards-Version: 3.7.3+leste1
 Package: pcsxrearmed
 Architecture: any
 Depends: ${shlibs:Depends}
-Description: Sony PlayStation emulator
+Description: Sony PlayStation emulator.
+ This application requires a physical keyboard to work properly.
 XSBC-Homepage: http://notaz.gp2x.de/pcsx_rearmed.php
 XSBC-Bugtracker: http://notaz.gp2x.de/pcsx_rearmed.php
 XB-Maemo-Display-Name: PCSX-ReArmed
