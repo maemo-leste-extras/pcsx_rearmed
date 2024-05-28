@@ -195,6 +195,8 @@ OBJS += frontend/libpicofe/plat_sdl.o
 OBJS += frontend/libpicofe/plat_dummy.o
 OBJS += frontend/libpicofe/linux/in_evdev.o
 OBJS += frontend/plat_sdl.o
+LDFLAGS += $(shell pkg-config --libs libpulse)
+CFLAGS += $(shell pkg-config --cflags libpulse)
 ifeq "$(HAVE_GLES)" "1"
 OBJS += frontend/libpicofe/gl.o frontend/libpicofe/gl_platform.o
 LDLIBS += $(LDLIBS_GLES)
