@@ -40,22 +40,22 @@ install: build
 	dh_testroot
 	dh_installdirs
 	mkdir -p "$(CURDIR)"/debian/pcsxrearmed/usr/games/pcsx/screenshots
-	chmod 777 "$(CURDIR)"/debian/pcsxrearmed/usr/games/pcsx/screenshots
-	chown user "$(CURDIR)"/debian/pcsxrearmed/usr/games/pcsx/screenshots
+	chmod -R 644 "$(CURDIR)"/debian/pcsxrearmed/usr/games/pcsx/screenshots
+	#chown user "$(CURDIR)"/debian/pcsxrearmed/usr/games/pcsx/screenshots
 	mkdir -p "$(CURDIR)"/debian/pcsxrearmed/usr/games/pcsx/skin
-	chmod 777 "$(CURDIR)"/debian/pcsxrearmed/usr/games/pcsx/skin
-	chown user "$(CURDIR)"/debian/pcsxrearmed/usr/games/pcsx/skin
+	chmod -R 644 "$(CURDIR)"/debian/pcsxrearmed/usr/games/pcsx/skin
+	#chown user "$(CURDIR)"/debian/pcsxrearmed/usr/games/pcsx/skin
 	mkdir -p "$(CURDIR)"/debian/pcsxrearmed/usr/games/pcsx/bios
-	chmod 777 "$(CURDIR)"/debian/pcsxrearmed/usr/games/pcsx/bios
-	chown user "$(CURDIR)"/debian/pcsxrearmed/usr/games/pcsx/bios
+	chmod -R 644 "$(CURDIR)"/debian/pcsxrearmed/usr/games/pcsx/bios
+	#chown user "$(CURDIR)"/debian/pcsxrearmed/usr/games/pcsx/bios
 	mkdir -p "$(CURDIR)"/debian/pcsxrearmed/usr/games/pcsx/.pcsx/memcards
-	chmod 777 "$(CURDIR)"/debian/pcsxrearmed/usr/games/pcsx/.pcsx/memcards
-	chown user "$(CURDIR)"/debian/pcsxrearmed/usr/games/pcsx/.pcsx/memcards
+	chmod -R 644 "$(CURDIR)"/debian/pcsxrearmed/usr/games/pcsx/.pcsx/memcards
+	#chown user "$(CURDIR)"/debian/pcsxrearmed/usr/games/pcsx/.pcsx/memcards
 	mkdir -p "$(CURDIR)"/debian/pcsxrearmed/usr/games/pcsx/.pcsx
-	chmod 777 "$(CURDIR)"/debian/pcsxrearmed/usr/games/pcsx/.pcsx
-	chown user "$(CURDIR)"/debian/pcsxrearmed/usr/games/pcsx/.pcsx
+	chmod -R 644 "$(CURDIR)"/debian/pcsxrearmed/usr/games/pcsx/.pcsx
+	#chown user "$(CURDIR)"/debian/pcsxrearmed/usr/games/pcsx/.pcsx
 	#chmod 777 "$(CURDIR)"/debian/pcsxrearmed/usr/games/pcsx/.pcsx/pcsx.cfg
-	chmod 777 "$(CURDIR)"/debian/pcsxrearmed/usr/games
+	chmod -R 644 "$(CURDIR)"/debian/pcsxrearmed/usr/games
 	dh_install
 
 binary-indep: build install
