@@ -39,7 +39,6 @@ install: build
 	dh_testdir
 	dh_testroot
 	dh_installdirs
-	chown user "$(CURDIR)"/debian/pcsxrearmed/usr/games/pcsx/.pcsx/pcsx.cfg
 	dh_install
 
 binary-indep: build install
