@@ -1,4 +1,7 @@
 pcsx usr/games/pcsx
+README usr/games/pcsx/bios
+README usr/games/pcsx/screenshots
+README usr/games/pcsx/.pcsx/memcards
 plugins/spunull/spunull.so usr/games/pcsx/plugins
 plugins/gpu_unai/gpu_unai.so usr/games/pcsx/plugins
 plugins/dfxvideo/gpu_peops.so usr/games/pcsx/plugins
