@@ -1,3 +1,9 @@
+pcsxrearmed (0.4.0.15.2+leste1) unstable; urgency=low
+
+   * Pulseaudio fix - Sound quality improvement
+
+ -- Arno11 <arno11-n900@outlook.com>  Fri,  28 Jun 2024 14:30:01 +0200
+
 pcsxrearmed (0.4.0.15.1+leste1) unstable; urgency=low
 
    * New Maemo Leste version optimized for N900
